@@ -1,0 +1,57 @@
+/* Demo styles for AI-powered Disaster Response System */
+:root{
+  --bg:#0b1220;
+  --card:#081023;
+  --muted:#94a3b8;
+  --accent:#06b6d4;
+  --glass: rgba(255,255,255,0.04);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color:#e6eef6;
+  background: linear-gradient(180deg,#071027 0%, #071226 60%);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.4;
+}
+.site-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 28px;
+  gap:16px;
+}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:92px;height:auto}
+.title h1{font-size:16px;margin:0}
+.title .tag{font-size:12px;color:var(--muted);margin-top:4px}
+.nav{display:flex;gap:12px;align-items:center}
+.nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:8px}
+.nav a.btn{background:var(--glass);color:var(--accent)}
+main{padding:20px 28px}
+.hero{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start;margin-top:8px}
+.hero-inner h2{font-size:28px;margin:0 0 8px 0;color:#fff}
+.hero-inner p{color:var(--muted);margin:0 0 12px 0}
+.cta-row{margin-top:16px}
+.cta{display:inline-block;background:var(--accent);color:#06202a;padding:10px 14px;border-radius:8px;text-decoration:none;margin-right:10px}
+.ghost{color:var(--muted);text-decoration:none;padding:10px;border-radius:8px}
+.panel{display:flex;align-items:center;justify-content:center}
+.panel-card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6);text-align:center}
+.initials{font-size:48px;font-weight:800;color:var(--accent);background:linear-gradient(90deg, rgba(6,182,212,0.12), transparent);padding:12px 24px;border-radius:8px;display:inline-block;margin:12px 0}
+.features,.about,.contact{margin-top:28px;background:rgba(255,255,255,0.02);padding:16px;border-radius:10px}
+.features ul{margin:8px 0;padding-left:20px;color:var(--muted)}
+.site-footer{padding:20px 28px;color:var(--muted);border-top:1px solid rgba(255,255,255,0.02);margin-top:28px}
+
+/* Responsive */
+@media (max-width:880px){
+  .hero{grid-template-columns:1fr;}
+  .nav{display:none}
+  .logo{width:72px}
+}
+@media (max-width:420px){
+  .hero-inner h2{font-size:20px}
+  .initials{font-size:36px}
+}
