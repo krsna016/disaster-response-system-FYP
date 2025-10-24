@@ -29,6 +29,12 @@ Next steps
 - Add more pages (docs, roadmap, contact form).
 - Integrate with a build tool or deploy to GitHub Pages / Netlify.
 
-License
+## Contributors
+
+This project exists thanks to all the people who contribute:
+
+- **anurag** ([@krsna016](https://github.com/krsna016)) - Project Creator
+
+## License
 
 This repo is yours to adapt. Add a LICENSE file if you want to publish under a specific license.
