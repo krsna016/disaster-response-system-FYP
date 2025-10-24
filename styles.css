@@ -41,8 +41,13 @@ main{padding:20px 28px}
 .panel{display:flex;align-items:center;justify-content:center}
 .panel-card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6);text-align:center}
 .initials{font-size:48px;font-weight:800;color:var(--accent);background:linear-gradient(90deg, rgba(6,182,212,0.12), transparent);padding:12px 24px;border-radius:8px;display:inline-block;margin:12px 0}
-.features,.about,.contact{margin-top:28px;background:rgba(255,255,255,0.02);padding:16px;border-radius:10px}
+.features,.about,.contact,.contributors{margin-top:28px;background:rgba(255,255,255,0.02);padding:16px;border-radius:10px}
 .features ul{margin:8px 0;padding-left:20px;color:var(--muted)}
+.contributor-list{margin:8px 0;padding-left:20px;color:var(--muted);list-style:none;padding-left:0}
+.contributor-list li{margin-bottom:8px;padding:8px;background:var(--glass);border-radius:6px}
+.contributor-list a{color:var(--accent);text-decoration:none}
+.contributor-list a:hover{text-decoration:underline}
+.contributor-list .role{color:var(--muted);font-size:14px}
 .site-footer{padding:20px 28px;color:var(--muted);border-top:1px solid rgba(255,255,255,0.02);margin-top:28px}
 
 /* Responsive */
